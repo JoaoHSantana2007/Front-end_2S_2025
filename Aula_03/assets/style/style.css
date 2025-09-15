@@ -1,0 +1,39 @@
+.t1 {
+    padding: 12px;
+    text-align: center;
+    background-color: black;
+    color: rgb(192, 49, 49);
+}
+
+.t2 {
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(20, 20, 105);
+    color:  black;
+}
+
+.t3 {
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(26, 21, 21);
+    color: rgb(209, 204, 204);
+}
+
+.t4 {
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(16, 95, 29);
+    color: rgb(241, 241, 241);
+}
+
+p{
+    text-align: center;
+    padding: 20px;
+}
+
+.botao {
+    background-color: rgb(175, 62, 62);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 10px;
+}
