@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 12px;
+    background-color: #f5efef;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+    color: #8f0505;
+}
+
+p {
+    padding: 12px;
+    text-align: center;
+}
+
+.botao{
+    text-align: center;
+    padding: 12px;
+    border: solid 2px #000000;
+    border-radius: 10px;
+    color: #8f0505;
+    background-color: #bbb9b9;
+}
+
+img {
+    margin: 20px 590px;
+    max-width: 200px;
+    max-height: 200px;
+}
