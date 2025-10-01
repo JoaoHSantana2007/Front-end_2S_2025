@@ -1,11 +1,83 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <link rel="stylesheet" href="../style/page6.css">
+        <title>Exercício 5:Formulários</title>
     </head>
     <body>
-    
+        <header>
+            <div class="container">
+            <div class="img">
+                <img class="logo" src="../img/logo.png" alt="Logo do Projeto">
+            </div>
+            <a href="../index.html" rel="noopener"><button class="buttonPrincipal">Voltar para a página principal</button></a>
+        </div>
+        </header>
+        <main>
+            <h1>Exercício 5: Formulários</h1>
+
+            <form action="#" method="post">
+            <fieldset class="radius-formulario">
+                <legend>Formulário de Contato</legend>
+                <div>
+                    <label for="nome">Nome Completo:</label>
+                    <input class="radius-formulario" type="text" id="nome" name="nome">
+                </div>
+                <br>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input class="radius-formulario" type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input class="radius-formulario" type="password" id="senha" name="senha">
+                </div>
+                <br>
+                <div>
+                    <p>Gênero:</p>
+                    <label  for="masculino">Masculino</label>
+                    <input class="radius-formulario" type="radio" id="masculino" name="genero" value="m">
+                    <label for="feminino">Feminino</label>
+                    <input class="radius-formulario"  type="radio" id="feminino" name="genero" value="f">
+                    <label for="outro">Outro</label>
+                    <input class="radius-formulario" type="radio" id="outro" name="genero" value="o">
+                </div>
+                <br>
+                <div>
+                    <p>Interesses:</p>
+                    <label for="html">HTML</label>
+                    <input class="radius-formulario" type="checkbox" id="html" name="interesse_html" value="html">
+                    <label for="css">CSS</label>
+                    <input class="radius-formulario" type="checkbox" id="css" name="interesse_css" value="css">
+                    <label for="javascript">JavaScript</label>
+                    <input class="radius-formulario" type="checkbox" id="javascript" name="interesse_js" value="js">
+                </div>
+                <br>
+                <div>
+                    <label for="estado">Seu Estado:</label>
+                    <select class="radius-formulario" id="estado" name="estado">
+                        <option value="" disabled selected>Selecione...</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <br>
+                    <textarea class="radius-formulario" id="mensagem" name="mensagem" rows="5" cols="40"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input class="buttonSecundario" type="submit" value="Enviar Formulário">
+                    <input class="buttonSecundario" type="reset" value="Limpar Campos">
+                </div>
+            </fieldset>
+            </form>
+        </main>
     </body>
 </html>

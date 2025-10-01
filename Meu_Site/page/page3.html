@@ -1,11 +1,90 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <link rel="stylesheet" href="../style/page3.css">
+        <title>Exercício 2:Formatação de Texto e Blocos Préformatados</title>
     </head>
     <body>
-    
+        <header>
+            <div class="container">
+            <div class="img">
+                <img class="logo" src="../img/logo.png" alt="Logo do Projeto">
+            </div>
+            <a href="../index.html" rel="noopener" ><button>Voltar para a página principal</button></a>
+        </div>
+        </header>
+        <main>
+            <h1>Exercício 2: Formatação de Texto e Blocos Pré-formatados</h1>
+            <h2>Formatação de Texto</h2>
+            <h3>Importância Semântica: &lt;b&gt; e &lt;strong&gt;</h3>
+            <p>
+                A tag &lt;strong&gt; é mais recomendada semanticamente quando queremos dar importância a alguma palavra ou trecho de uma frase. <br>
+                Ex: Marque a alternativa que está INCORRETA. <br><br>           
+                Já a tag &lt;b&gt; não é recomendada semanticamente. O HTML recomenda que a usemos somente quando não houver mais nenhuma outra opção. <br>
+                Ex: Marque a alternativa que está INCORRETA. <br>
+            </p>
+            <h3>Ênfase Semântica: &lt;em&gt; vs. &lt;i&gt;</h3>
+            <p>
+                A tag &lt;em&gt; é usada no HTML para simbolizar que aquela palavra ou trecho de texto possui uma ênfase tônica diferente dos demais, um jeito diferente de falar. <br>
+                Ex: Posso faltar à aula hoje? <em>Não, você vai para a escola hoje</em> <br><br>
+                Já a tag &lt;i&gt; serve para colocar uma palavra ou parte do texto em itálico, usada muito em títulos de obras, palavras estrangeiras e expressões latinas como <i>et al.</i>
+                Ex: Hoje estudaremos o livro <i>Diário de Anne Frank</i>
+            </p>
+            <h3>Tag &lt;mark&gt;</h3>
+            <p>
+                A tag &lt;mark&gt; no HTML serve para marcar uma palavra ou trecho de texto como se passássemos um marca-texto por cima em um livro, sendo usada para realçar uma palavra com importância maior que as demais. <br>
+                Ex: <mark>Este trecho é muito importante para o texto e deve ser marcado</mark>
+            </p>
+            <h3>Tag &lt;small&gt;</h3>
+            <p>
+                A tag &lt;small&gt; no HTML serve para que deixemos uma palavra ou trecho de texto menor que os demais da página. <br>
+                Ex: Essa palavra é <small>menor</small> que as outras. 
+            </p>
+            <h3>Tags &lt;del&gt; e &lt;ins&gt;</h3>
+            <p>
+                A tag &lt;del&gt; no HTML serve para dizer que algo foi removido ou trocado no texto. <br>
+                A tag &lt;ins&gt; no HTML serve para dizer que algo foi inserido no texto. <br>
+                Ex: A calça custava <del>R$100,00</del> porém agora ela está custando <ins>R$80,00</ins>.   
+            </p>
+            <h3>Tag &lt;sub&gt;</h3>
+            <p>
+                A tag &lt;sub&gt; no HTML serve para criarmos um texto subscrito no trecho, usada muito em fórmulas matemáticas, químicas e físicas, de forma correta, sem uma incorreta interpretação do leitor. <br>
+                Ex: H + O<sub>2</sub> = H<sub>2</sub>O
+            </p>
+            <h3>Tag &lt;sup&gt;</h3>
+            <p>
+                A tag &lt;sup&gt; no HTML serve para criarmos um texto sobrescrito no trecho, usada muito em fórmulas matemáticas, químicas e físicas, de forma correta, sem uma incorreta interpretação do leitor, basicamente o contrário da tag &lt;sub&gt;. <br>
+                Ex: 2<sup>2</sup> = 4
+            </p>
+            <hr>
+            <h2>Bloco de Texto Pré-formatado</h2>
+            <pre>
+                A tag &lt;pre&gt; no HTML serve para que tudo que você digite no código HTML seja replicado no site, diferente da tag &lt;p&gt;.
+                 Basicamente, quebras de linhas, espaços, identações, etc. escritas no código serão replicadas na página do site.
+            </pre>
+            <h3>bloco de código em Java</h3>
+            <pre>
+                public class OlaMundo {
+                    public static void main(String[] args) {
+                        System.out.println("Olá Mundo!");
+                    }
+                }
+            </pre>
+            <h3>Arte ASCII de um foquete</h3>
+            <pre>
+                     .---.
+                    /     \
+                   |-------|
+                   | ^   ^ |
+                   | |   | |
+                   |-------|
+                   |       |
+                   |       |
+                 .-'-------'-.
+                /_____________\
+            </pre>
+        </main>
     </body>
 </html>
